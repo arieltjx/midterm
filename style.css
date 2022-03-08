@@ -215,3 +215,8 @@ div.buttonalign {
   text-align: center;
   padding: 30px 40px;
 }
+
+@font-face {
+  font-family: LEDLIGHT;
+  src: url(LEDLIGHT.otf);
+}
