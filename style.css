@@ -34,10 +34,10 @@ li a {
 
 .dropbtn {
   font-family: "LEDLIGHT", serif;
-  background-color: #040626;
+  background-color: black;
   color: white;
   padding: 16px;
-  font-size: 16px;
+  font-size: 20px;
   border: none;
   cursor: pointer;
 }
@@ -51,7 +51,7 @@ li a {
   font-family: "LEDLIGHT", serif;
   display: none;
   position: absolute;
-  background-color: #040626;
+  background-color: black;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -63,6 +63,7 @@ li a {
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+  font-size: 40px;
 }
 
 .dropdown-content a:hover {background-color: black}
@@ -119,11 +120,11 @@ div.overlay2 {
   transition: .9s ease;
   background-color: black;
 }
-.container:hover .overlay2 {
+.overlay2:hover {
   opacity: 0.8;
 }
 
-.container:hover .overlay {
+.overlay:hover {
   opacity: 0.8;
 }
 
